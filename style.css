@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+body header{
+    width: 100%;
+    height: 25%;
+    background: black;
+}
+
+header .company{
+    width: 100%;
+    height: 40%;
+    background: black;
+}
+.company h1{
+    font-size: 70px;
+    color: white;
+    padding-left: 15px;
+}
+
+
+nav {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+}
+nav ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+}
+nav ul li{
+    font-size: 21px;
+    font-weight: 600;
+    padding: 19px 20px ;
+    text-align: center;
+    cursor: pointer;
+}
+nav ul i{
+    margin-top: 22px;
+}
+#home{
+    color: white;
+    background-color: black;
+    
+    /* border-radius: 20px; */
+}
+nav ul li:hover{
+    transition: ease-out 0.2s;
+    color: white;
+    background-color: #4b4b4b;
+
+  
+}
+nav .search{
+    width: 40%;
+    height: 100%;
+}
+nav .search input{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    position: absolute;
+    right: 80px;
+    margin-top:15px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+nav .search input:hover{
+    transition: all ease 0.5s;
+
+    color: white;
+    background-color: black;
+}
+
+nav .search i{
+    cursor: pointer;
+    position: absolute;
+    right: 400px;
+    scale: 1.5;
+    margin-top: 39px;
+}
+.breaking-news{
+    width: 100%;
+    height: 20%;
+    background-color: #000000;
+    display: flex;
+}
+
+.breaking-news .break-left{
+    display: flex;
+    width: 80%;
+}
+.breaking-news .break-left h2{
+    width: 22%;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 15px;
+    border: 2px solid black;
+
+}
+
+
+.breaking-news .break-left marquee ul{
+    list-style: circle;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.breaking-news .break-left marquee ul p{
+    padding: 5px 20px;
+    font-family: "Poppins", sans-serif;
+
+}
+.breaking-news .break-left marquee ul p:hover{
+    color: rgb(192, 192, 192);
+    cursor: pointer;
+
+}
+.breaking-news .break-left i{
+    margin-top: 17px;
+    margin-left: 10px;
+    color: white;
+}
+
+.breaking-news .break-right{
+    display: flex;
+    margin-left: 50px;
+}
+.breaking-news .break-right p{
+    color: rgb(192, 192, 192);
+    margin-top: 9px;
+    margin-left: 20px;
+}
+.breaking-news .break-right i{
+    color: rgb(192, 192, 192);
+    scale: 1.5;
+    margin-top: 20px;
+    
+}
+.breaking-news .break-right i:hover{
+    color: white;
+}
+.breaking-news .break-right p:hover{
+    color: white;
+}
+
+
+
+
+
+
+.main{
+    width: 100%;
+    height: 75%;
+    background: red;
+    display: flex;
+}
+.main .main-left{
+width: 70%;
+background: rgb(255, 255, 255);
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+
+#card1{
+    height: 90%;
+    width: 45%;
+    background-image: url(https://www.theweeknd.com/files/2021/10/photo_202110_07_SPOTIFY-BRIANZIFF_THEWEEKND_1063-1.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+#card2{
+    height: 90%;
+    width: 25%;
+    background-image: url(https://timesofindia.indiatimes.com/photo/107844126/107844126.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.subcard{
+    height: 90%;
+    width: 25%;
+}
+#card3{
+    width: 100%;
+    height: 48%;
+    background-image: url(https://img.freepik.com/premium-photo/photo-ai-technology-microchip-design-background-artificial-intelligence-background-concept_763111-158155.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+#card4{
+    margin-top: 20px;
+    width: 100%;
+    height: 48%;
+    background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202403/virat-kohli-142124241-16x9_0.jpg?VersionId=K4JxNgtJ_6uVxZJoaLFrXKo.xvV4Fa60&size=690:388  ) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+
+
+.card1-content{
+    width: 100%;
+    margin-top: 250px;
+}
+.card1-content .tags{
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+}
+.card1-content .tags li{
+    color: white;
+    padding: 5px 25px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.card1-content h2{
+    font-family: "Poppins", sans-serif;
+    text-shadow: 2px 1px #000000;
+    cursor: pointer;
+    font-weight: 300;
+    margin-left: 20px;
+    color: white;
+}
+.card1-content h2:hover{
+    transition: all ease 0.3s;
+    scale: 1.07;
+ 
+}
+#card1:hover{
+    transition: all ease 0.3s;
+    scale: 1.05;
+}
+
+.card1-content h3{
+    color: rgb(148, 148, 148);
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    padding-left: 200px;
+
+}
+.card1-content .date{
+    display: flex;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.card1-content .date p{
+    padding: 0px 10px;
+}
+
+.card2-content{
+    width: 100%;
+    margin-top: 300px;
+}
+.card2-content .tags{
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+}
+.card2-content .tags li{
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+    background-color: black;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.card2-content h2{
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px #000000;
+    font-size: 20px;
+}
+.card2-content h2:hover{
+    transition: all ease-in 0.3s;
+    scale: 1.07;
+ 
+}
+#card2:hover{
+    transition: all ease 0.3s;
+    scale: 1.05;
+}
+.card2-content h3{
+    color: rgb(148, 148, 148);
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+.card2-content .date{
+    display: flex;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.card2-content .date p{
+    padding: 0px 10px;
+}
+
+.card3-content{
+    width: 100%;
+    padding-top: 90px;
+}
+.card3-content .tags{
+    display: flex;
+    list-style: none;
+    margin-left: 6px;
+}
+.card3-content .tags li{
+    color: white;
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: black;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 10px;
+}
+.card3-content h2{
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px #434343;
+    font-size: 15px;
+}
+.card3-content h2:hover{
+    transition: all ease-in 0.2s;
+    scale: 1.07;
+ 
+}
+#card3:hover{
+    transition: all ease 0.3s;
+    scale: 1.05;
+}
+.card3-content h3{
+    color: rgb(148, 148, 148);
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+.card3-content .date{
+    display: flex;
+    color: white;
+    margin-left: 25px;
+}
+.card3-content .date i{
+    padding-top: 6px;
+}
+.card3-content .date p{
+    padding: 7px 10px;
+    font-size: 14px;
+}
+
+
+
+.card4-content{
+    width: 100%;
+    padding-top: 90px;
+}
+.card4-content .tags{
+    display: flex;
+    list-style: none;
+    margin-left: 6px;
+}
+.card4-content .tags li{
+    color: white;
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: black;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 10px;
+}
+.card4-content h2{
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px #434343;
+    font-size: 15px;
+}
+.card4-content h2:hover{
+    transition: all ease-in 0.2s;
+    scale: 1.07;
+ 
+}
+#card4:hover{
+    transition: all ease 0.3s;
+    scale: 1.05;
+}
+.card4-content h3{
+    color: rgb(148, 148, 148);
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+.card4-content .date{
+    display: flex;
+    color: white;
+    margin-left: 25px;
+}
+.card4-content .date i{
+    padding-top: 6px;
+}
+.card4-content .date p{
+    padding: 7px 10px;
+    font-size: 14px;
+}
+
+
+.main .main-right{
+    width: 30%;
+    height: 100%;
+    background: rgb(218, 218, 218);
+}
+
+.main-right .selector{
+    list-style: none;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    padding-top: 15px;
+}
+.main-right .selector li{
+    padding: 25px 40px;
+    background-color: black;
+    /* border-radius: 30px; */
+    color: rgb(255, 255, 255);
+}
+#popular{
+    background-color: white;
+    color: #4b4b4b;
+}
+#popular:hover{
+    transition: all ease 0.1s;
+    color: black;
+    border: 2px solid black;
+}
+
+.card-scroller{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(218, 218, 218);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.right-card1{
+    width: 95%;
+    height: 120px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+}
+.right-card1:hover{
+    transition: all ease 0.2s;
+    background-color: rgb(29, 29, 29);
+    scale:1.04;
+    color: white;
+}
+.right-card1 .photo{
+    height: 90%;
+    width: 130px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-image: url(https://static1.dualshockersimages.com/wordpress/wp-content/uploads/2024/01/solo-leveling-anime-to-premiere-this-week-on-crunchyroll.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.right-card1 .date{
+    display: flex;
+    /* color: white; */
+    margin-left: 25px;
+    padding-top: 5px;
+}
+.right-card1 .date p{
+  padding-left: 10px;
+}
+.right-card1 h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    padding-left: 20px;
+}
+
+#image2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNf66SWv_xrXLBZ_GYd25EjRfbwjLP0qGtXD-hQ7yC1w&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#image3{
+    background-image: url(https://etimg.etb2bimg.com/photo/110174220.cms);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#image4{
+    background-image: url(https://static.toiimg.com/thumb/imgsize-123456,msid-109977644,width-300,resizemode-4/109977644.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#image5{
+    background-image: url(https://images.indianexpress.com/2024/04/malasana.jpg?resize=600,338);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#image6{
+    background-image: url(https://static.toiimg.com/photo/97834460.cms);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#image7{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqbuWj2sVwmsHf5WOXMIJ7J1309U7JaIqaPQ_2czHuiA&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 20px;
+  }
